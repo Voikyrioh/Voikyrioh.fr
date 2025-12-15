@@ -1,11 +1,13 @@
 <script setup lang="ts">
-
+import Header from "./components/molecules/header.vue";
+import Content from "./components/molecules/content.vue";
+import Footer from "./components/molecules/footer.vue";
 </script>
 
 <template>
-<div class="flex justify-center items-center h-screen">
-  <h2 class="text-2xl">Content will be here</h2>
-</div>
+<Header></Header>
+<Content></Content>
+<Footer></Footer>
 </template>
 
 <style scoped>

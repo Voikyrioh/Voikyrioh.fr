@@ -2,5 +2,59 @@
 
 :root {
     color-scheme: light dark;
-    background-color: #191b23;
+}
+
+@theme {
+    /* Blue -> Dodger Blue */
+    --color-blue-100: #ECF1FF;
+    --color-blue-200: #D9E3FF;
+    --color-blue-400: #7C9EFF;
+    --color-blue-500: #4475FF;
+    --color-blue-600: #365DCC;
+    --color-blue-800: #1B2E66;
+    --color-blue-900: #14234C;
+
+
+    /* Purple -> Electric Violet */
+    --color-purple-100: #F6EBFF;
+    --color-purple-200: #EDD8FF;
+    --color-purple-400: #C277FF;
+    --color-purple-500: #A83DFF;
+    --color-purple-600: #8630CC;
+    --color-purple-800: #431866;
+    --color-purple-900: #32124C;
+
+
+    /* Green -> Jade */
+    --color-green-100: #E5F7EE;
+    --color-green-200: #CCEFDD;
+    --color-green-400: #4CC988;
+    --color-green-500: #00B356;
+    --color-green-600: #008F44;
+    --color-green-800: #004722;
+    --color-green-900: #003519;
+
+    /* Neutrals */
+    --color-neutral-100: #F2F2F2;
+    --color-neutral-200: #D9D9DA;
+    --color-neutral-400: #B4B3B6;
+    --color-neutral-500: #838186;
+    --color-neutral-600: #524E55;
+    --color-neutral-800: #201C25;
+    --color-neutral-900: #08030D;
+
+
+    --header-height: calc(80px + 2rem);
+}
+
+.neon-border {
+    border-bottom: 2px solid var(--color-violet-500);
+    box-shadow: 0 0 18px var(--color-violet-500);
+    border-radius: 16px;
+}
+
+.neon-text {
+    -webkit-text-stroke: 1.5pt black;
+    text-shadow: 0 0 5px var(--color-violet-500);
+    color: var(--color-violet-500);
 }
