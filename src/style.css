@@ -48,13 +48,19 @@
 }
 
 .neon-border {
-    border-bottom: 2px solid var(--color-violet-500);
+    border: 2px solid var(--color-violet-500);
     box-shadow: 0 0 18px var(--color-violet-500);
     border-radius: 16px;
 }
 
-.neon-text {
+.neon-logo {
     -webkit-text-stroke: 1.5pt black;
     text-shadow: 0 0 5px var(--color-violet-500);
     color: var(--color-violet-500);
+}
+
+.neon-text {
+    -webkit-text-stroke: .5pt var(--color-violet-400);
+    text-shadow: 0 0 8px var(--color-violet-500);
+    color: var(--color-violet-200);
 }

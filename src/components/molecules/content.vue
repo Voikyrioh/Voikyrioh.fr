@@ -1,17 +1,17 @@
 <script setup lang="ts">
-
 </script>
 
 <template>
-  <main>
-
+  <main class="flex flex-row w-full justify-center">
+    <slot/>
   </main>
 </template>
 
 <style scoped>
 main {
   padding: 1rem;
-  height: calc(100vh - var(--header-height));
+  margin: 2rem 0;
+  height: calc(100vh - var(--header-height) - 4rem);
   overflow-y: scroll;
   scrollbar-width: none;
 }

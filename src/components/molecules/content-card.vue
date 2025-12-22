@@ -3,15 +3,19 @@ const {title, text} = defineProps<{title?: string, text: string}>()
 </script>
 
 <template>
-  <div class="w-80 neon-border">
-    <div v-if="title" class="neon-border card-title">{{title}}</div>
-    <p>{{text}}</p>
+  <div class="w-2/3 neon-border">
+    <div v-if="title" class="card-title neon-text" v-translate:key="title"></div>
+    <div class="card-body"><p v-translate:key="text"></p></div>
   </div>
 </template>
 
 <style scoped>
-  .card-title {
-    border-radius: 0;
+  .card-title, .card-body {
     padding: 1rem;
+  }
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
   }
 </style>
