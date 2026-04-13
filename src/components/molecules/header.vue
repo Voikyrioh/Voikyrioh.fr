@@ -22,8 +22,7 @@
 </script>
 
 <template>
-<div class="shadow-box w-full neon-border"></div>
-<header ref="header" :class="{ retracted }" class="flex justify-center items-center w-full">
+<header ref="header" :class="{ retracted }" class="flex justify-center items-center w-full shadow-box neon-border-bottom">
   <img :src="logo" class="size-20">
   <h1 class="font-bold text-4xl -ml-4 neon-logo">oikyrioh.fr</h1>
 
@@ -37,12 +36,9 @@ header {
   padding: 1rem;
   position: sticky;
   top: 0;
-  /*&.retracted {}*/
+  background-color: var(--color-neutral-900);
 }
-.shadow-box {
-  position: sticky;
-  top: 0;
-}
+
 .langSelect {
   position: absolute;
   right: 2rem;

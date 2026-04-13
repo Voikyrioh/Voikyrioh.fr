@@ -47,10 +47,25 @@
     --header-height: calc(80px + 2rem);
 }
 
+@theme dark {
+    --header-color: var(--color-neutral-900);
+    --main-color: var(--color-neutral-800);
+}
+
+@theme light {
+    --header-color: var(--color-neutral-400);
+    --main-color: var(--color-neutral-100);
+}
+
 .neon-border {
     border: 2px solid var(--color-violet-500);
     box-shadow: 0 0 18px var(--color-violet-500);
     border-radius: 16px;
+}
+
+.neon-border-bottom {
+    border-bottom: 2px solid var(--color-violet-500);
+    box-shadow: 0 0 18px var(--color-violet-500);
 }
 
 .neon-logo {
