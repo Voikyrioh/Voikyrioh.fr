@@ -1,0 +1,110 @@
+{
+  "nav.home": "Accueil",
+  "nav.about": "À propos",
+  "nav.projects": "Projets",
+  "nav.skills": "Compétences",
+  "nav.experience": "Expérience",
+  "nav.contact": "Contact",
+
+  "hero.tagline": "Développeur Fullstack",
+  "hero.subtitle": "Développeur avec 8 ans d'expérience web. Passionné de la programmation, de la technologie et des casse-tête techniques.",
+  "hero.cta.projects": "Voir mes projets",
+  "hero.cta.contact": "Me contacter",
+
+  "projects.title": "Projets",
+  "projects.loading": "Chargement…",
+  "projects.show-all": "Voir tous les projets",
+  "projects.show-less": "Réduire",
+  "projects.philosophy": "La majorité de ces projets sont des terrains d'apprentissage. Je commence par une question, une technologie ou un concept et je construis jusqu'à avoir satisfait ma curiosité ou accompli le défi technique que je me suis donné. Puis mon avis m'amène ailleurs. Finir le projet n'est jamais vraiment l'objectif — c'est les challenges.",
+  "project.card.view-live": "Voir le live →",
+
+  "project.detail.back": "← Retour",
+  "project.detail.loading": "Chargement…",
+  "project.detail.visit-live": "Voir le live",
+  "project.detail.view-repo": "Code source",
+
+  "skills.title": "Compétences",
+  "skills.group.frontend": "Frontend",
+  "skills.group.backend": "Backend",
+  "skills.group.testing": "Tests",
+  "skills.group.tools": "Outils",
+
+  "about.title": "À propos",
+  "about.bio": "Je suis Yoann Pommier, alias Voikyrioh — développeur fullstack passionné de création. J'aime les défis techniques et créer des choses de mes mains, ce qui m'a amené à devenir développeur. Développeur Web de métier, j'adore les défis technique et la rigueur qu'apportent le backend et la créativité et la visualisation du frontend. Mon amour du jeu vidéo et d'univers fantastiques m'ont amené à m'essayer à la programmation graphique 3D ainsi qu'à utiliser Unity (et le C#) dans mes projets personnels. Fort de 7 ans chez Shopopop depuis sa période de startup jusqu'à la grande entreprise qu'elle est aujourd'hui, j'ai travaillé sur l'architecture de microservices, l'intégration Keycloak, React, Angular et des APIs Node.js. Aujourd'hui je cherche de nouveaux défis — web moderne, moteurs de jeu, open source.",
+  "about.approach.learn.title": "J'apprends et je m'amuse",
+  "about.approach.learn.desc": "Mes projets sont des terrains de jeux. Je me lance dans un projet car je le trouve fun que ce soit car il attise ma curiosité, parce que je le trouve amusant ou qu'il représente un challenge qui me motive.",
+  "about.approach.build.title": "Je construis ce dont j'ai besoin",
+  "about.approach.build.desc": "Si un outil n'existe pas ou ne me convient pas, je le fais moi-même. vue-translate, observable, web-api-boilerplate, dofus-db — chacun est né d'un besoin réel.",
+  "about.approach.curious.title": "La curiosité prime",
+  "about.approach.curious.desc": "Je passe à la prochaine question technique une fois ma curiosité rassasiée ou lorsque quelque chose d'autre m'attire. La finition n'est pas toujours l'objectif.",
+
+  "experience.title": "Expérience",
+  "experience.shopopop.period1": "2018 — 2020",
+  "experience.shopopop.role1": "Concepteur Développeur Web — Alternance",
+  "experience.shopopop.desc1": "Développement d'un backoffice interne en Angular 5 et d'une API Express/TypeScript. Création de requêtes MySQL, montée de version Angular, features bout en bout.",
+  "experience.shopopop.period2": "2020 — 2026",
+  "experience.shopopop.role2": "Software Engineer Web Fullstack",
+  "experience.shopopop.desc2": "Application React + API Koa/TypeScript, migrations et optimisations MySQL, conception de microservices, SDK privés, tests (Jest/Storybook/TestBed), intégration Keycloak, Google Maps API, astreinte technique.",
+  "experience.school.period2": "2015 — 2017",
+  "experience.school.role2": "BTS SNIR — Lycée Grandmont, Tours",
+  "experience.school.desc2": "Approfondissement en informatique et réseaux : programmation C++, bases de données MySQL, développement PHP, administration Linux.",
+  "experience.school.period1": "2013 — 2015",
+  "experience.school.role1": "BAC PRO SEN — Lycée Henri Becquerel, Tours",
+  "experience.school.desc1": "Formation aux systèmes électroniques et numériques. Introduction aux réseaux, à Linux et aux systèmes embarqués.",
+
+  "contact.title": "Contact",
+  "contact.blurb": "Vous avez un projet ou une opportunité ? Je suis disponible en freelance. Contactez-moi via GitHub, LinkedIn ou directement par email.",
+  "contact.github": "GitHub",
+  "contact.linkedin": "LinkedIn",
+  "contact.email": "contact@voikyrioh.fr",
+
+  "footer.built-with": "Fait avec Vue 3 & TypeScript",
+
+  "project.chess-game.title": "Échecs 3D",
+  "project.chess-game.summary": "Jeu d'échecs complet avec rendu Three.js et multijoueur en temps réel",
+  "project.chess-game.description": "Après avoir travaillé avec WebGPU et compris le fonctionnement interne d'un moteur 3D, je voulais m'essayer à une utilisation plus concrète de la 3D sur navigateur avec Three.js, sur un projet vraiment concret. Les échecs s'imposaient : règles complexes, rendu 3D, multijoueur temps réel. Chaque pièce est modélisée sur Blender et éclairée dynamiquement. Le moteur de règles gère les mouvements légaux, les prises en passant, le roque et les promotions. Le multijoueur est en cours de développement et fonctionnera via WebSockets. Le rendu 3D complet des pièces suivra juste après — J'ai déjà réalisé toutes les pieces de base et le plateau sur Blender.",
+
+  "project.webgpu-cube.title": "WebGPU Engine",
+  "project.webgpu-cube.summary": "Moteur de rendu voxel from scratch en WebGPU raw — zéro bibliothèque 3D",
+  "project.webgpu-cube.description": "Lancé 1-2 mois après l'arrivée de WebGPU dans Chrome stable, ce projet est né d'une curiosité simple : comprendre les graphismes bas niveau avec mes compétences JS existantes, sans passer par Three.js ou Babylon. Pas de bibliothèque 3D — pipelines GPU, buffers et shaders WGSL écrits à la main. J'ai atteint un rendu avancé avec textures et les bases d'un moteur voxel. Les vrais obstacles : les mathématiques 3D, l'architecture d'un moteur et les limitations inhérentes à JS/GPU. Objectif atteint : comprendre ce qui se passe vraiment sous le capot.",
+
+  "project.slay-the-slime.title": "Slay the Slime",
+  "project.slay-the-slime.summary": "Clicker simple avec un rendu en HTML/CSS pur — sans canvas",
+  "project.slay-the-slime.description": "Une contrainte absurde auto-imposée : Faire un jeu en utilisant uniquement HTML et CSS pour le rendu — aucun canvas, aucun SVG animé, aucune librairie de jeu. Ce projet a été démarré d'un simple délir et a été pour moi un vrai coup de cœur pour Vue.js. Une fois l'objectif atteint — prouver que c'était possible — j'ai arrêté. Le défi était là, il était relevé.",
+
+  "project.db-dofus-retro.title": "DB Dofus Rétro",
+  "project.db-dofus-retro.summary": "Outil de gestion de craft et d'inventaire pour Dofus Rétro",
+  "project.db-dofus-retro.description": "Un besoin de joueur : J'avais besoin d'un outil pour suivre mes crafts et les ressources dont j'avais besoin. Et par simple envie, j'ai décidé de faire cet outil moi-même afin de pouvoir l'adapter à mes besoins et de m'amuser un peu. Ce projet m'a aussi servi de veille afin d'apprendre à utiliser Claude qui devenait nécessaire dans mon travail.",
+
+  "project.tactical-mmo.title": "Tactical MMO 2D",
+  "project.tactical-mmo.summary": "MMO tactique isométrique 2D en C# — le projet de rêve",
+  "project.tactical-mmo.description": "C'est le projet de rêve d'enfant, ayant toujours voulu réaliser un jeu vidéo. J'ai choisi Unity car j'ai déjà eu l'occasion de l'utiliser et car c'est le moteur avec le plus de tutoriels, mais aussi pour développer en C# qui est un langage que j'apprécie particulièrement. La vue isométrique 2D et les combats tactiques au tour par tour sont très clairement inspirés du jeu vidéo Dofus qui est un jeu d'enfance pour moi, mais aussi pour l'intérêt technique qu'il représente. J'ai la volonté de mettre en place le multijoueur — chaque aspect soulève des problèmes profonds et fascinants. C'est encore un projet en très early stage et je vais souvent faire des pauses, mais c'est celui que je compte le plus terminer.",
+
+  "project.vue-translate.title": "Vue Translate",
+  "project.vue-translate.summary": "Plugin i18n réactif et type-safe pour Vue 3 — publié sur npm",
+  "project.vue-translate.description": "Né de trois raisons simultanées : j'en avais besoin, j'avais envie de le faire moi-même, et je voulais qu'il soit fait avec quasi aucune dépendance. Directive v-translate, chargement asynchrone de fichiers JSON, réactivité native Vue 3, validation Zod, composant SelectLanguage avec drapeaux. Léger, customisable, opinionated. Ce site lui-même l'utilise en production.",
+
+  "project.observable.title": "Observable",
+  "project.observable.summary": "Bibliothèque TypeScript Observable — zéro dépendance, publiée sur npm",
+  "project.observable.description": "vue-translate avait besoin d'une couche réactive légère. Plutôt qu'introduire RxJS, j'ai implémenté le pattern Observable/Observer from scratch. Simple API : créer des sources réactives, s'y abonner, les transformer. Zéro dépendance. Publié sur npm parce que si c'est utile pour moi, ça peut l'être pour d'autres.",
+
+  "project.web-api-boilerplate.title": "Web API Boilerplate",
+  "project.web-api-boilerplate.summary": "Template TypeScript/Fastify/Hono prêt à l'emploi pour démarrer une API",
+  "project.web-api-boilerplate.description": "À force de démarrer des projets API, j'ai fini par standardiser ma façon de faire. Ce boilerplate est ma base parfaite : TypeScript, d'abord sur Fastify puis sur Hono, que ce soit la structure de projet ou les utilitaires récurrents. Au lieu de reconfigurer les mêmes choses à chaque nouveau projet, je clone et je commence directement à coder ce qui compte.",
+
+  "project.in-stock.title": "In Stock",
+  "project.in-stock.summary": "Outil de surveillance de disponibilité de produits en e-commerce",
+  "project.in-stock.description": "En 2021, un ami me lance un défi lors des grandes pénuries de composants : surveille la disponibilité d'une carte graphique et préviens-moi dès qu'elle revient en stock. Résultat : une application Node.js/TypeScript qui scrape des sites e-commerce et envoie des alertes en temps réel. Fun, utile, et ça m'a appris beaucoup sur le scraping et les systèmes d'alerte.",
+
+  "project.minecraft-rust.title": "Minecraft en Rust",
+  "project.minecraft-rust.summary": "Moteur voxel 3D façon Minecraft — apprentissage Rust",
+  "project.minecraft-rust.description": "Ma méthode d'apprentissage favorite pour un nouveau langage : construire quelque chose de concret et visuellement satisfaisant. Pour apprendre Rust, j'ai choisi un moteur voxel type Minecraft — gestion mémoire sans garbage collector, performances bas niveau, génération procédurale de terrain. Rust est exigeant, mais les garanties qu'il offre en échange sont fascinantes.",
+
+  "project.directx-engine.title": "Moteur DirectX",
+  "project.directx-engine.summary": "Moteur de rendu 3D basique avec DirectX et C++",
+  "project.directx-engine.description": "Même logique qu'avec Rust et Minecraft : apprendre C++ et DirectX par la pratique. L'objectif était de comprendre ce que font Unity et Unreal sous le capot — pipeline graphique, vertex buffers, shaders HLSL, gestion Win32. Une fois les fondamentaux compris, la curiosité m'a emmené ailleurs. Mais maintenant je sais exactement ce qui se passe quand un moteur de jeu dessine un pixel.",
+
+  "project.super-bingo.title": "Super Bingo",
+  "project.super-bingo.summary": "Bingo multijoueur full-stack avec mots personnalisables",
+  "project.super-bingo.description": "Parfois un projet n'a pas besoin de grande justification : l'idée était fun, alors je l'ai commencée. Bingo multijoueur avec grilles de mots entièrement personnalisables et système communautaire. Architecture full-stack : API Fastify/TypeScript + interface Vue 3. En cours de développement : salles de jeu, rôle d'animateur, effets visuels."
+}
