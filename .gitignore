@@ -25,3 +25,5 @@ dist-ssr
 
 # Assets dev
 _assets_dev
+content
+CLAUDE.md
