@@ -1,0 +1,139 @@
+[
+  {
+    "slug": "chess-game",
+    "titleKey": "project.chess-game.title",
+    "summaryKey": "project.chess-game.summary",
+    "descriptionKey": "project.chess-game.description",
+    "liveUrl": "https://chess.voikyrioh.fr",
+    "repoUrl": "https://github.com/Voikyrioh/my-chess-game",
+    "stack": ["TypeScript", "Three.js", "Node.js", "Docker"],
+    "status": "live",
+    "featured": true,
+    "imageUrl": "/images/projects/chess.webp"
+  },
+  {
+    "slug": "webgpu-cube",
+    "titleKey": "project.webgpu-cube.title",
+    "summaryKey": "project.webgpu-cube.summary",
+    "descriptionKey": "project.webgpu-cube.description",
+    "liveUrl": "https://cube.voikyrioh.fr",
+    "repoUrl": "https://github.com/Voikyrioh/vk-web-gp-cube",
+    "stack": ["TypeScript", "WebGPU", "WGSL"],
+    "status": "live",
+    "featured": true,
+    "imageUrl": "/images/projects/cube.webp"
+  },
+  {
+    "slug": "slay-the-slime",
+    "titleKey": "project.slay-the-slime.title",
+    "summaryKey": "project.slay-the-slime.summary",
+    "descriptionKey": "project.slay-the-slime.description",
+    "liveUrl": "https://slay-the-slime-dev.voikyrioh.fr",
+    "repoUrl": "https://github.com/Voikyrioh/slay_the_slime",
+    "stack": ["Vue 3", "TypeScript"],
+    "status": "live",
+    "featured": true,
+    "imageUrl": "/images/projects/slime.webp"
+  },
+  {
+    "slug": "db-dofus-retro",
+    "titleKey": "project.db-dofus-retro.title",
+    "summaryKey": "project.db-dofus-retro.summary",
+    "descriptionKey": "project.db-dofus-retro.description",
+    "liveUrl": "https://db-retro.voikyrioh.fr",
+    "repoUrl": "https://github.com/Voikyrioh/db-dofus-retro",
+    "stack": ["Vue 3", "TypeScript", "Tailwind"],
+    "status": "live",
+    "featured": true,
+    "imageUrl": "/images/projects/dofusdb.webp"
+  },
+  {
+    "slug": "tactical-mmo",
+    "titleKey": "project.tactical-mmo.title",
+    "summaryKey": "project.tactical-mmo.summary",
+    "descriptionKey": "project.tactical-mmo.description",
+    "liveUrl": null,
+    "repoUrl": "https://github.com/Voikyrioh/2d-isometric-tactical-mmo",
+    "stack": ["C#"],
+    "status": "in-progress",
+    "featured": true,
+    "imageUrl": "/images/projects/2diso.webp"
+  },
+  {
+    "slug": "vue-translate",
+    "titleKey": "project.vue-translate.title",
+    "summaryKey": "project.vue-translate.summary",
+    "descriptionKey": "project.vue-translate.description",
+    "liveUrl": "https://www.npmjs.com/package/@Voikyrioh/vue-translate",
+    "repoUrl": "https://github.com/Voikyrioh/vue-translate",
+    "stack": ["TypeScript", "Vue 3", "Zod"],
+    "status": "published",
+    "featured": true
+  },
+  {
+    "slug": "observable",
+    "titleKey": "project.observable.title",
+    "summaryKey": "project.observable.summary",
+    "descriptionKey": "project.observable.description",
+    "liveUrl": "https://www.npmjs.com/package/@Voikyrioh/observable",
+    "repoUrl": "https://github.com/Voikyrioh/observable",
+    "stack": ["TypeScript"],
+    "status": "published",
+    "featured": false
+  },
+  {
+    "slug": "web-api-boilerplate",
+    "titleKey": "project.web-api-boilerplate.title",
+    "summaryKey": "project.web-api-boilerplate.summary",
+    "descriptionKey": "project.web-api-boilerplate.description",
+    "liveUrl": null,
+    "repoUrl": "https://github.com/Voikyrioh/voikys-web-api-boilerplate",
+    "stack": ["TypeScript", "Node.js", "Fastify"],
+    "status": "published",
+    "featured": false
+  },
+  {
+    "slug": "in-stock",
+    "titleKey": "project.in-stock.title",
+    "summaryKey": "project.in-stock.summary",
+    "descriptionKey": "project.in-stock.description",
+    "liveUrl": null,
+    "repoUrl": "https://github.com/Voikyrioh/in_stock",
+    "stack": ["TypeScript", "Node.js"],
+    "status": "published",
+    "featured": false
+  },
+  {
+    "slug": "minecraft-rust",
+    "titleKey": "project.minecraft-rust.title",
+    "summaryKey": "project.minecraft-rust.summary",
+    "descriptionKey": "project.minecraft-rust.description",
+    "liveUrl": null,
+    "repoUrl": "https://github.com/Voikyrioh/another-minecraft-copy-rust",
+    "stack": ["Rust"],
+    "status": "learning",
+    "featured": false
+  },
+  {
+    "slug": "directx-engine",
+    "titleKey": "project.directx-engine.title",
+    "summaryKey": "project.directx-engine.summary",
+    "descriptionKey": "project.directx-engine.description",
+    "liveUrl": null,
+    "repoUrl": "https://github.com/Voikyrioh/direct-x-basic-game-engine",
+    "stack": ["C++", "DirectX", "HLSL"],
+    "status": "learning",
+    "featured": false
+  },
+  {
+    "slug": "super-bingo",
+    "titleKey": "project.super-bingo.title",
+    "summaryKey": "project.super-bingo.summary",
+    "descriptionKey": "project.super-bingo.description",
+    "liveUrl": null,
+    "repoUrl": "https://github.com/Voikyrioh/super-customizable-bingo-ui",
+    "stack": ["TypeScript", "Vue 3", "Node.js", "Fastify"],
+    "status": "in-progress",
+    "featured": false
+  }
+]
