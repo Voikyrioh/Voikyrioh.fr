@@ -1,15 +1,23 @@
-import { createApp } from 'vue'
+import { createApp, type FunctionPlugin } from 'vue'
 import './style.css'
 import App from './App.vue'
-import vueTranslate from 'vue-translate'
+import vueTranslate from '@Voikyrioh/vue-translate'
+import router from './router'
 
-const apiTranslationUrl = 'http://localhost:8080/api/v1/website/translations'
-fetch(new URL(`${apiTranslationUrl}/available`)).then(res => res.json()).then((availableLanguage: `${string}-${string}`[]) => {
-    createApp(App)
-        .use(vueTranslate, {
-            defaultLang: availableLanguage[0],
-            translationFilesUrl: `${apiTranslationUrl}/lang`,
-            availableLanguage
-        })
-        .mount('#app')
-})
+const availableLanguage = ['fr-FR', 'en-US'] as const
+type Language = typeof availableLanguage[number]
+
+function getDefaultLanguage(): Language {
+  return availableLanguage.find(lang =>
+    lang.toLowerCase().startsWith(navigator.language.toLowerCase().slice(0, 2))
+  ) ?? availableLanguage[0]
+}
+
+createApp(App)
+  .use(vueTranslate as FunctionPlugin, {
+    defaultLang: getDefaultLanguage(),
+    translationFilesUrl: '/translations/lang',
+    availableLanguage: [...availableLanguage],
+  })
+  .use(router)
+  .mount('#app')

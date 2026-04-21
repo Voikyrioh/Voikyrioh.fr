@@ -44,7 +44,7 @@
     --color-neutral-900: #08030D;
 
 
-    --header-height: calc(80px + 2rem);
+    --header-height: 5rem;
 }
 
 @theme dark {
@@ -58,24 +58,68 @@
 }
 
 .neon-border {
-    border: 2px solid var(--color-violet-500);
-    box-shadow: 0 0 18px var(--color-violet-500);
+    border: 2px solid var(--color-purple-500);
+    box-shadow: 0 0 18px var(--color-purple-500);
     border-radius: 16px;
 }
 
 .neon-border-bottom {
-    border-bottom: 2px solid var(--color-violet-500);
-    box-shadow: 0 0 18px var(--color-violet-500);
+    border-bottom: 2px solid var(--color-purple-500);
+    box-shadow: 0 0 18px var(--color-purple-500);
 }
 
 .neon-logo {
     -webkit-text-stroke: 1.5pt black;
-    text-shadow: 0 0 5px var(--color-violet-500);
-    color: var(--color-violet-500);
+    text-shadow: 0 0 5px var(--color-purple-500);
+    color: var(--color-purple-500);
 }
 
 .neon-text {
-    -webkit-text-stroke: .5pt var(--color-violet-400);
-    text-shadow: 0 0 8px var(--color-violet-500);
-    color: var(--color-violet-200);
+    -webkit-text-stroke: .5pt var(--color-purple-400);
+    text-shadow: 0 0 8px var(--color-purple-500);
+    color: var(--color-purple-200);
 }
+
+/* Aurora animée */
+@keyframes aurora-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.aurora-bg {
+    background: linear-gradient(135deg, var(--color-neutral-900), var(--color-purple-900), var(--color-blue-900), var(--color-neutral-800));
+    background-size: 300% 300%;
+    animation: aurora-shift 12s ease infinite;
+}
+
+/* Texte dégradé */
+.gradient-text {
+    background: linear-gradient(90deg, var(--color-blue-400), var(--color-purple-400));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Fade-in au scroll */
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Offset ancre pour header sticky */
+.section-anchor {
+    scroll-margin-top: var(--header-height);
+}
+
+/* Couleurs status projets */
+.status-live { color: var(--color-green-400); }
+.status-published { color: var(--color-blue-400); }
+.status-in-progress { color: var(--color-purple-400); }
+.status-learning { color: var(--color-neutral-400); }

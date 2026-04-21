@@ -2,17 +2,14 @@
 </script>
 
 <template>
-  <main class="flex flex-row w-full justify-center">
+  <main class="w-full">
     <slot/>
   </main>
 </template>
 
 <style scoped>
 main {
-  padding: 1rem;
-  margin: 2rem 0;
-  height: calc(100vh - var(--header-height) - 4rem);
-  overflow-y: scroll;
-  scrollbar-width: none;
+  padding: 0;
+  width: 100%;
 }
 </style>
