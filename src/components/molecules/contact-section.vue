@@ -15,13 +15,13 @@ const links = [
   },
   {
     label: 'contact.linkedin',
-    href: 'https://www.linkedin.com/in/voikyrioh',
+    href: 'https://www.linkedin.com/in/yoann-pommier-516840147/',
     icon: '/linkedin-icon.svg',
     ariaLabel: 'LinkedIn',
   },
   {
     label: 'contact.email',
-    href: 'mailto:contact@voikyrioh.fr',
+    href: 'mailto:me+contact@yoann-pommier.fr',
     icon: null,
     ariaLabel: 'Email',
   },
