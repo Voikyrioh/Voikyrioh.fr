@@ -27,7 +27,7 @@ function flag(lang: string): string {
 }
 
 function label(lang: string): string {
-  return labelMap[lang] ?? lang.split('-')[0].toUpperCase()
+  return labelMap[lang] ?? lang.split('-')[0]?.toUpperCase() ?? ''
 }
 
 function selectLang(lang: string) {
