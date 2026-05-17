@@ -8,6 +8,12 @@ const { visible } = useFadeIn(sectionRef)
 
 const links = [
   {
+    label: 'contact.discord',
+    href: 'https://discord.gg/PrYVWnpS',
+    icon: '/discord.svg',
+    ariaLabel: 'Discord',
+  },
+  {
     label: 'contact.github',
     href: 'https://github.com/Voikyrioh',
     icon: '/github-icon.svg',
@@ -22,9 +28,9 @@ const links = [
   {
     label: 'contact.email',
     href: 'mailto:me+contact@yoann-pommier.fr',
-    icon: null,
+    icon: '/email.svg',
     ariaLabel: 'Email',
-  },
+  }
 ]
 </script>
 

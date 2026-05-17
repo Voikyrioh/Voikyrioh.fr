@@ -56,10 +56,11 @@
   "experience.school.desc1": "Training in digital and electronic systems, with an introduction to networking and Linux.",
 
   "contact.title": "Contact",
-  "contact.blurb": "Have a project or opportunity? I'm available for freelance work. Reach me via GitHub, LinkedIn, or directly by email.",
+  "contact.blurb": "Have a project or opportunity? I'm available for freelance work. Reach me via Discord, LinkedIn, or directly by email.",
   "contact.github": "GitHub",
   "contact.linkedin": "LinkedIn",
-  "contact.email": "contact@voikyrioh.fr",
+  "contact.discord": "Discord",
+  "contact.email": "me@yoann-pommier.fr",
 
   "footer.built-with": "Built with Vue 3 & TypeScript",
 

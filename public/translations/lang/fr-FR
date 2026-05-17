@@ -37,7 +37,7 @@
   "about.bio.2": "Développeur Web de métier, j'adore la rigueur qu'apportent le backend et la créativité et la visualisation du frontend. Mon amour du jeu vidéo et d'univers fantastiques m'ont amené à m'essayer à la programmation graphique 3D ainsi qu'à utiliser Unity (et le C#) dans mes projets personnels.",
   "about.bio.3": "Fort de 7 ans chez Shopopop depuis sa période de startup jusqu'à la grande entreprise qu'elle est aujourd'hui, j'ai travaillé sur l'architecture de microservices, l'intégration Keycloak, React, Angular et des APIs Node.js. Aujourd'hui je cherche de nouveaux défis — web moderne, moteurs de jeu, open source.",
   "about.approach.learn.title": "J'apprends et je m'amuse",
-  "about.approach.learn.desc": "Mes projets sont des terrains de jeux. Je me lance dans un projet car je le trouve fun que ce soit car il attise ma curiosité, parce que je le trouve amusant ou qu'il représente un challenge qui me motive.",
+  "about.approach.learn.desc": "Mes projets sont des terrains de jeux. Je me lance dans un projet quand je le trouve fun que ce soit car il attise ma curiosité, s'il semble amusant ou parce qu'il représente un challenge qui me motive.",
   "about.approach.build.title": "Je construis ce dont j'ai besoin",
   "about.approach.build.desc": "Si un outil n'existe pas ou ne me convient pas, je le fais moi-même. vue-translate, observable, web-api-boilerplate, dofus-db — chacun est né d'un besoin réel.",
   "about.approach.curious.title": "La curiosité prime",
@@ -58,10 +58,11 @@
   "experience.school.desc1": "Formation aux systèmes électroniques et numériques. Introduction aux réseaux, à Linux et aux systèmes embarqués.",
 
   "contact.title": "Contact",
-  "contact.blurb": "Vous avez un projet ou une opportunité ? Je suis disponible en freelance. Contactez-moi via GitHub, LinkedIn ou directement par email.",
+  "contact.blurb": "Vous avez un projet ou une opportunité ? Je suis disponible en CDI ou pour des projets freelance. Contactez-moi via Discord, LinkedIn ou directement par email.",
   "contact.github": "GitHub",
   "contact.linkedin": "LinkedIn",
-  "contact.email": "contact@voikyrioh.fr",
+  "contact.discord": "Discord",
+  "contact.email": "me@yoann-pommier.fr",
 
   "footer.built-with": "Fait avec Vue 3 & TypeScript",
 
@@ -83,7 +84,7 @@
 
   "project.tactical-mmo.title": "Tactical MMO 2D",
   "project.tactical-mmo.summary": "MMO tactique isométrique 2D en C# — le projet de rêve",
-  "project.tactical-mmo.description": "C'est le projet de rêve d'enfant, ayant toujours voulu réaliser un jeu vidéo. J'ai choisi Unity car j'ai déjà eu l'occasion de l'utiliser et car c'est le moteur avec le plus de tutoriels, mais aussi pour développer en C# qui est un langage que j'apprécie particulièrement. La vue isométrique 2D et les combats tactiques au tour par tour sont très clairement inspirés du jeu vidéo Dofus qui est un jeu d'enfance pour moi, mais aussi pour l'intérêt technique qu'il représente. J'ai la volonté de mettre en place le multijoueur — chaque aspect soulève des problèmes profonds et fascinants. C'est encore un projet en très early stage et je vais souvent faire des pauses, mais c'est celui que je compte le plus terminer.",
+  "project.tactical-mmo.description": "C'est le projet de rêve d'enfant, ayant toujours voulu réaliser un jeu vidéo. J'ai choisi de partir sur Unity vu que j'avais déjà de l'expérience avec et car c'est le moteur avec le plus de tutoriels disponibles, mais aussi afin de développer en C# qui est un langage que j'apprécie particulièrement. La vue isométrique 2D et les combats tactiques au tour par tour sont très clairement inspirés du jeu vidéo Dofus qui est un jeu d'enfance pour moi, mais aussi pour l'intérêt technique qu'il représente. J'ai la volonté de mettre en place le multijoueur — chaque aspect soulève des problèmes profonds et fascinants. C'est encore un projet en très early stage et je vais souvent faire des pauses, mais c'est celui que je compte le plus terminer.",
 
   "project.vue-translate.title": "Vue Translate",
   "project.vue-translate.summary": "Plugin i18n réactif et type-safe pour Vue 3 — publié sur npm",
