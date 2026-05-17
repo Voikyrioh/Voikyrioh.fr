@@ -12,7 +12,7 @@ COPY index.html vite.config.ts tsconfig*.json tailwind.config.js postcss.config.
 COPY src/ ./src/
 COPY public/ ./public/
 
-RUN npm run build:docker
+RUN npm run build
 
 FROM nginx:alpine AS runner
 
