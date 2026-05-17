@@ -8,7 +8,7 @@ RUN --mount=type=secret,id=github_token \
     npm config set //npm.pkg.github.com/:_authToken "$(cat /run/secrets/github_token)" && \
     npm ci
 
-COPY index.html vite.config.ts tsconfig*.json tailwind.config.js postcss.config.js ./
+COPY index.html vite.config.ts tsconfig*.json tailwind.config.js ./
 COPY src/ ./src/
 COPY public/ ./public/
 
