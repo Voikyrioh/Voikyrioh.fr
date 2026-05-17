@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
+import LangSwitcher from '@/components/atoms/lang-switcher.vue'
 
 const route = useRoute()
 
@@ -30,7 +31,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 
 <template>
   <header class="fixed top-0 left-0 right-0 z-50 flex justify-center pointer-events-none">
-    <nav class="pointer-events-auto flex gap-8 px-6 py-3 mt-4 rounded-2xl transition-all duration-300"
+    <nav class="pointer-events-auto flex items-center gap-8 px-6 py-3 mt-4 rounded-2xl transition-all duration-300"
          :class="scrolled ? 'scrolled-nav' : 'top-nav'">
       <RouterLink
         v-for="link in navLinks"
@@ -39,6 +40,8 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
         :class="['text-base font-semibold transition-colors hover:text-purple-300', isActive(link.to) ? 'neon-text' : 'text-neutral-200']"
         v-translate:key="link.labelKey"
       ></RouterLink>
+      <div class="w-px h-4 bg-neutral-600/50 flex-shrink-0"></div>
+      <LangSwitcher />
     </nav>
   </header>
 </template>

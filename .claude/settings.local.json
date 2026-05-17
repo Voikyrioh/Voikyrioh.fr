@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__github__get_file_contents",
+      "Bash(npm test:*)",
+      "WebFetch(domain:eieio.games)",
+      "Bash(npm run:*)",
+      "mcp__github__search_repositories"
+    ]
+  }
+}

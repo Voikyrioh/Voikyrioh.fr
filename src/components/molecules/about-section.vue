@@ -2,7 +2,6 @@
 import { useTemplateRef } from 'vue'
 import { useFadeIn } from '@/composables/useFadeIn'
 import SectionTitle from '@/components/atoms/section-title.vue'
-import logo from '/logo.webp'
 
 const sectionRef = useTemplateRef<HTMLElement>('section')
 const { visible } = useFadeIn(sectionRef)
@@ -11,19 +10,19 @@ const philosophyCards = [
   {
     titleKey: 'about.approach.learn.title',
     descKey: 'about.approach.learn.desc',
-    icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 0 1-.657.643 48.39 48.39 0 0 1-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 0 1-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 0 0-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 0 1-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 0 0 .657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 0 1-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.401.604-.401.959v0c0 .333.277.599.61.58a48.1 48.1 0 0 0 5.427-.63 48.05 48.05 0 0 0 .582-4.717.532.532 0 0 0-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.959.401v0a.656.656 0 0 0 .658-.663 48.422 48.422 0 0 0-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 0 1-.61-.58v0Z" /></svg>`,
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><g><path d="M512,19.25c0-10.1-8.195-18.279-18.287-18.279H308.866v73.652c4.586-2.558,9.865-4.008,15.481-4.008c17.623,0,31.919,14.287,31.919,31.923c0,17.619-14.288,31.914-31.919,31.914c-5.616,0-10.895-1.458-15.481-3.999v73.644h73.652c-2.549,4.586-4.008,9.864-4.008,15.476c0,17.635,14.288,31.923,31.923,31.923c17.627,0,31.914-14.288,31.914-31.923c0-5.612-1.458-10.89-3.999-15.476H512V19.25z"/><path d="M429.616,275.37h-92.794c-3.25,0-6.256,1.718-7.901,4.504l0.09-0.154l-0.106,0.171c-0.839,1.426-1.263,3.038-1.263,4.643c0,1.531,0.391,3.078,1.157,4.464l5.849,10.532c1.311,2.37,1.954,4.863,1.963,7.583c-0.008,4.203-1.621,8.08-4.586,11.062c-2.981,2.965-6.866,4.578-11.062,4.594c-4.203-0.017-8.088-1.629-11.078-4.594l0.012,0.017c-2.974-2.998-4.582-6.883-4.59-11.078c0.008-2.713,0.651-5.213,1.958-7.591l5.853-10.524c0.77-1.386,1.157-2.924,1.157-4.464c0-1.605-0.424-3.217-1.276-4.66c-1.649-2.793-4.655-4.504-7.9-4.504h-69.432v-37.184c12.548-0.196,24.4-5.14,33.278-14.035c9.09-9.066,14.125-21.227,14.116-34.072c0.008-12.862-5.03-25.023-14.116-34.081c-8.871-8.896-20.726-13.832-33.278-14.027V81.416c-0.004-5.066-4.11-9.172-9.176-9.172H34.548c-9.204-0.007-17.94,3.601-24.432,10.109C3.669,88.805,0.008,97.659,0,106.798v369.686c-0.008,9.196,3.608,17.928,10.116,24.428c6.452,6.443,15.293,10.108,24.432,10.117h369.726c9.115-0.008,17.961-3.674,24.404-10.117c6.509-6.5,10.117-15.224,10.109-24.428V284.542C438.788,279.476,434.682,275.37,429.616,275.37z M28.37,106.798c0-2.118,0.986-3.559,1.792-4.366c0.835-0.831,2.272-1.825,4.386-1.825h172.747v73.603c0,1.776,0.941,3.413,2.468,4.317c0.782,0.456,1.657,0.685,2.537,0.685c0.839,0,1.674-0.204,2.432-0.627l10.528-5.849c2.969-1.646,6.203-2.485,9.608-2.485c5.29,0,10.271,2.061,14.014,5.8c3.747,3.755,5.808,8.74,5.808,14.027c0,5.286-2.061,10.264-5.8,14.01c-3.751,3.747-8.732,5.808-14.022,5.808c-3.409,0-6.639-0.839-9.604-2.485l-10.536-5.849c-0.753-0.423-1.592-0.627-2.427-0.627c-0.88,0-1.756,0.228-2.537,0.693c-1.527,0.896-2.468,2.533-2.468,4.309v73.603h-45.575c0.09-1.133,0.134-2.264,0.134-3.38c0-11.77-4.582-22.824-12.894-31.124c-8.304-8.317-19.358-12.894-31.128-12.894c-11.766,0-22.819,4.578-31.12,12.886c-8.32,8.3-12.902,19.362-12.898,31.124c0,1.124,0.044,2.249,0.134,3.389H28.37V106.798z M207.296,482.666H34.548c-2.114,0-3.551-0.994-4.366-1.8c-0.826-0.831-1.812-2.273-1.812-4.382V303.725h73.599c1.772,0,3.413-0.937,4.313-2.46c0.9-1.532,0.925-3.422,0.062-4.969l-5.844-10.532c-1.65-2.974-2.485-6.207-2.489-9.604c0.004-5.287,2.07-10.271,5.8-14.019c3.758-3.738,8.74-5.808,14.022-5.808c5.282,0,10.264,2.07,14.01,5.8c3.743,3.755,5.808,8.74,5.812,14.018c-0.004,3.413-0.844,6.647-2.477,9.604l-5.857,10.532c-0.864,1.556-0.838,3.446,0.062,4.969c0.9,1.531,2.542,2.468,4.313,2.468h73.599v45.59c-1.133-0.089-2.26-0.13-3.376-0.13c-11.774,0-22.828,4.578-31.12,12.886c-8.324,8.308-12.902,19.362-12.894,31.124c-0.008,11.762,4.57,22.824,12.887,31.124c8.3,8.317,19.354,12.894,31.128,12.894c1.124,0,2.252-0.041,3.376-0.13V482.666z M410.424,476.484c0,2.109-0.993,3.543-1.808,4.366c-0.831,0.823-2.265,1.817-4.374,1.817H231.496v-73.603c0-1.776-0.936-3.413-2.468-4.309c-0.782-0.465-1.658-0.692-2.537-0.692c-0.835,0-1.674,0.204-2.428,0.627l-10.544,5.849c-2.961,1.645-6.191,2.484-9.6,2.484c-5.282,0-10.264-2.068-14.01-5.8c-3.743-3.747-5.808-8.732-5.812-14.019c0.004-5.294,2.07-10.271,5.808-14.018c3.744-3.739,8.724-5.808,14.015-5.816c3.385,0,6.618,0.839,9.6,2.484l10.54,5.857c0.758,0.424,1.592,0.628,2.432,0.628c0.879,0,1.755-0.229,2.537-0.684c1.527-0.904,2.468-2.542,2.468-4.318v-73.611h45.578c-0.089,1.132-0.134,2.265-0.134,3.388c-0.004,11.754,4.574,22.808,12.886,31.116c8.308,8.325,19.366,12.903,31.132,12.903c11.766,0,22.82-4.578,31.129-12.894c8.316-8.3,12.886-19.354,12.886-31.124c0-1.124-0.041-2.248-0.13-3.388h45.582V476.484z"/></g></svg>`,
     color: 'purple',
   },
   {
     titleKey: 'about.approach.build.title',
     descKey: 'about.approach.build.desc',
-    icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l5.653-4.655m5.8-2.02 3.58-3.58a2.652 2.652 0 0 0-3.765-3.765l-3.58 3.58m5.8 2.02-5.8-2.02" /></svg>`,
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><path d="M31,19h-1v-1c0-0.552-0.448-1-1-1h-3c-0.552,0-1,0.448-1,1v1h-2v-1c0-0.552-0.448-1-1-1h-3c-0.552,0-1,0.448-1,1v1h-1v-7c0-0.552-0.448-1-1-1h-1v-1c0-0.552-0.448-1-1-1h-3c-0.552,0-1,0.448-1,1v1H9V4c0-0.552-0.448-1-1-1H7V2c0-0.552-0.448-1-1-1H3C2.448,1,2,1.448,2,2v1H1C0.448,3,0,3.448,0,4v25c0,0.552,0.448,1,1,1h30c0.552,0,1-0.448,1-1v-9C32,19.448,31.552,19,31,19z M30,28H2v-7h28V28z M12,11h1v1h-1V11z M15,13v7H2v-7H15z M4,3h1v1H4V3z M7,5v7H2V5H7z M20,19h1v1h-1V19z M27,19h1v1h-1V19z"/></svg>`,
     color: 'blue',
   },
   {
     titleKey: 'about.approach.curious.title',
     descKey: 'about.approach.curious.desc',
-    icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" /></svg>`,
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><g><path stroke-linecap="round" stroke-miterlimit="10" d="M26.704,31.88092a10.89847,10.89847,0,0,0,4.69949,4.51994v8.20033l2.39931,2.39931h4.79863l2.39931-2.39931V36.40086a10.77219,10.77219,0,0,0-5.14261-20.42249,10.62759,10.62759,0,0,0-5.84737,1.99269"/><line stroke-miterlimit="10" x1="36.20214" x2="36.20214" y1="40.51145" y2="27.96958"/><line stroke-miterlimit="10" x1="31.40352" x2="41.00077" y1="40.51145" y2="40.51145"/><circle fill="currentColor" stroke="none" cx="36.20214" cy="26.76992" r="1.79949"/></g><g><polyline stroke-linecap="round" stroke-linejoin="round" points="1 12.314 11 22.314 29.385 29.385 22.314 11 12.314 1"/><polyline stroke-linecap="round" stroke-miterlimit="10" points="11 22.314 11.707 17.364 16.657 16.657 17.364 11.707 22.314 11"/><line stroke-linecap="round" stroke-miterlimit="10" x1="21.60645" x2="25.8491" y1="25.84901" y2="21.60637"/></g></svg>`,
     color: 'green',
   },
 ]
@@ -37,23 +36,33 @@ const philosophyCards = [
   >
     <SectionTitle titleKey="about.title" />
 
-    <!-- Speech bubble layout -->
-    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 mb-12">
-      <!-- Avatar -->
-      <div class="flex-shrink-0">
-        <img
-          :src="logo"
-          class="size-32 md:size-40 rounded-full neon-border object-cover"
-          alt="Voikyrioh logo"
-        />
+    <!-- Identity sidebar + Bio -->
+    <div class="flex flex-col md:flex-row gap-8 md:gap-12 mb-12">
+      <!-- Identity sidebar -->
+      <div class="flex-shrink-0 md:w-44 border-l-2 border-purple-500 pl-5 flex flex-col gap-4 justify-center">
+        <div>
+          <p class="text-xs font-mono text-purple-400 uppercase tracking-widest mb-0.5">langues</p>
+          <p class="text-neutral-100 font-semibold" v-translate:key="'about.identity.language'">Français, Anglais</p>
+        </div>
+        <div>
+          <p class="text-xs font-mono text-purple-400 uppercase tracking-widest mb-0.5">exp</p>
+          <p class="text-neutral-300 text-sm" v-translate:key="'about.identity.exp'">8 ans</p>
+        </div>
+        <div>
+          <p class="text-xs font-mono text-purple-400 uppercase tracking-widest mb-0.5">langages</p>
+          <p class="text-neutral-100 font-semibold" v-translate:key="'about.identity.programing-language'">TypeScript, C#, Rust</p>
+        </div>
+        <div>
+          <p class="text-xs font-mono text-purple-400 uppercase tracking-widest mb-0.5">location</p>
+          <p class="text-neutral-300 text-sm">Nantes, Tours, Europe</p>
+        </div>
       </div>
 
-      <!-- Bubble -->
-      <div class="relative w-full speech-bubble neon-border rounded-2xl p-6 md:p-8">
-        <p
-          class="text-neutral-300 text-lg leading-relaxed"
-          v-translate:key="'about.bio'"
-        ></p>
+      <!-- Bio paragraphs -->
+      <div class="flex flex-col gap-5 text-neutral-300 text-base leading-relaxed">
+        <p v-translate:key="'about.bio.1'"></p>
+        <p v-translate:key="'about.bio.2'"></p>
+        <p v-translate:key="'about.bio.3'"></p>
       </div>
     </div>
 
@@ -71,7 +80,7 @@ const philosophyCards = [
       >
         <div
           :class="[
-            'w-10 h-10 rounded-xl flex items-center justify-center',
+            'w-10 h-10 rounded-xl flex items-center justify-center p-1',
             card.color === 'purple' ? 'text-purple-400 bg-purple-500/15' : '',
             card.color === 'blue' ? 'text-blue-400 bg-blue-500/15' : '',
             card.color === 'green' ? 'text-green-400 bg-green-500/15' : '',
@@ -95,23 +104,3 @@ const philosophyCards = [
     </div>
   </section>
 </template>
-
-<style scoped>
-/* Speech bubble tail — only on md+ screens */
-@media (min-width: 768px) {
-  .speech-bubble::before {
-    content: '';
-    position: absolute;
-    left: -8px;
-    top: 24px;
-    width: 14px;
-    height: 14px;
-    background: var(--color-neutral-900);
-    border-left: 2px solid var(--color-purple-500);
-    border-bottom: 2px solid var(--color-purple-500);
-    box-shadow: -2px 2px 8px var(--color-purple-500);
-    transform: rotate(45deg);
-    z-index: 1;
-  }
-}
-</style>

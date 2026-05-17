@@ -30,7 +30,12 @@
   "skills.group.tools": "Outils",
 
   "about.title": "À propos",
-  "about.bio": "Je suis Yoann Pommier, alias Voikyrioh — développeur fullstack passionné de création. J'aime les défis techniques et créer des choses de mes mains, ce qui m'a amené à devenir développeur. Développeur Web de métier, j'adore les défis technique et la rigueur qu'apportent le backend et la créativité et la visualisation du frontend. Mon amour du jeu vidéo et d'univers fantastiques m'ont amené à m'essayer à la programmation graphique 3D ainsi qu'à utiliser Unity (et le C#) dans mes projets personnels. Fort de 7 ans chez Shopopop depuis sa période de startup jusqu'à la grande entreprise qu'elle est aujourd'hui, j'ai travaillé sur l'architecture de microservices, l'intégration Keycloak, React, Angular et des APIs Node.js. Aujourd'hui je cherche de nouveaux défis — web moderne, moteurs de jeu, open source.",
+  "about.identity.exp": "8 ans d'expérience",
+  "about.identity.language": "8 ans d'expérience",
+  "about.identity.programming-language": "8 ans d'expérience",
+  "about.bio.1": "Je suis Voikyrioh — développeur fullstack passionné de création. J'aime les défis techniques et créer des choses de mes mains, ce qui m'a amené à devenir développeur.",
+  "about.bio.2": "Développeur Web de métier, j'adore la rigueur qu'apportent le backend et la créativité et la visualisation du frontend. Mon amour du jeu vidéo et d'univers fantastiques m'ont amené à m'essayer à la programmation graphique 3D ainsi qu'à utiliser Unity (et le C#) dans mes projets personnels.",
+  "about.bio.3": "Fort de 7 ans chez Shopopop depuis sa période de startup jusqu'à la grande entreprise qu'elle est aujourd'hui, j'ai travaillé sur l'architecture de microservices, l'intégration Keycloak, React, Angular et des APIs Node.js. Aujourd'hui je cherche de nouveaux défis — web moderne, moteurs de jeu, open source.",
   "about.approach.learn.title": "J'apprends et je m'amuse",
   "about.approach.learn.desc": "Mes projets sont des terrains de jeux. Je me lance dans un projet car je le trouve fun que ce soit car il attise ma curiosité, parce que je le trouve amusant ou qu'il représente un challenge qui me motive.",
   "about.approach.build.title": "Je construis ce dont j'ai besoin",

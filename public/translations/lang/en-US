@@ -6,8 +6,8 @@
   "nav.experience": "Experience",
   "nav.contact": "Contact",
 
-  "hero.tagline": "Yoann Pommier — Fullstack Developer",
-  "hero.subtitle": "8 years of web experience. Passionate about programming, technology and technical puzzles.",
+  "hero.tagline": "Fullstack Developer",
+  "hero.subtitle": "Developer with 8 years of web experience. Passionate about programming, technology and technical puzzles.",
   "hero.cta.projects": "View my projects",
   "hero.cta.contact": "Get in touch",
 
@@ -30,7 +30,10 @@
   "skills.group.tools": "Tools",
 
   "about.title": "About",
-  "about.bio": "I'm Yoann Pommier, aka Voikyrioh — a fullstack developer passionate about creation. I love technical challenges and building things with my own hands, which is what led me to become a developer. As a web developer by trade, I love the rigour the backend demands and the creativity and visualisation that frontend brings. My love of video games and fantasy worlds led me to explore 3D graphics programming and Unity (and C#) in my personal projects. With 7 years at Shopopop, from its startup days to the large company it is today, I worked on microservice architecture, Keycloak integration, React, Angular and Node.js APIs. Now looking for new challenges — modern web, game engines, open source.",
+  "about.identity.exp": "8 years of experience",
+  "about.bio.1": "I'm Voikyrioh — a fullstack developer passionate about creation. I love technical challenges and building things with my own hands, which is what led me to become a developer.",
+  "about.bio.2": "As a web developer by trade, I love the rigour the backend demands and the creativity and visualisation that frontend brings. My love of video games and fantasy worlds led me to explore 3D graphics programming and Unity (and C#) in my personal projects.",
+  "about.bio.3": "With 7 years at Shopopop, from its startup days to the large company it is today, I worked on microservice architecture, Keycloak integration, React, Angular and Node.js APIs. Now looking for new challenges — modern web, game engines, open source.",
   "about.approach.learn.title": "I learn and I have fun",
   "about.approach.learn.desc": "My projects are playgrounds. I start a project because I find it fun — whether it sparks my curiosity, entertains me, or represents a challenge that motivates me.",
   "about.approach.build.title": "I build what I need",
