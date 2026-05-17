@@ -13,7 +13,7 @@
     </div>
 
     <div class="relative z-10 text-center px-6 max-w-3xl">
-      <h1 class="gradient-text text-6xl md:text-8xl font-black mb-4">Voikyrioh</h1>
+      <h1 class="gradient-text text-6xl md:text-8xl font-black mb-4" style="height: calc(var(--text-8xl) + 1rem)">Voikyrioh</h1>
 
       <p
         class="text-2xl md:text-3xl font-semibold text-neutral-200 mb-3"
